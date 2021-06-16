@@ -1,0 +1,23 @@
+header { text-align:center;
+        background-image: url("../img/estrellas.jpg");
+        background-size: cover;
+}
+h1 {font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;}
+    h2 {font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+
+    }
+main {text-align:center;
+    background-size: cover;
+    background-color: rgb(25, 221, 139);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 50px;
+line-height: 3;}
+
+footer {color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+background-color:rgba(0, 0, 0, 0.8);
+background-size: cover;}
