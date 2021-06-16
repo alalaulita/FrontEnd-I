@@ -11,10 +11,12 @@ h1 {font-family:Georgia, 'Times New Roman', Times, serif;
 main {text-align:center;
     background-size: cover;
     background-color: rgb(25, 221, 139);
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 50px;
 line-height: 3;}
+
+a {text-decoration: none; color: black;
+}
 
 footer {color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
