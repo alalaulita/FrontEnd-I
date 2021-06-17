@@ -1,0 +1,45 @@
+main {font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+        max-width: 2000px;
+    margin: 50px auto; 
+    text-align: left;
+width: 80%;}
+
+header { font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-image: url('../img/estrellas.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+
+
+}
+.principal {text-align: center;}
+
+}
+h2, h3, li {text-align: justify;
+width: 80%;
+margin-left: 20%;
+font-size: 35px;}
+
+
+a { color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none; 
+}
+p{ font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;}
+
+footer {background-color: rgb(36, 32, 32);
+    line-height: 25px;
+}
+i {color: black;}
