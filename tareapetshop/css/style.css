@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{box-sizing:content-box;
+    font-family:  'Roboto', sans-serif;}
+ .primero { background-color: black;
+    color: white;
+     font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11.72px;
+
+}
+.nav, a {background-color: #F0A83E;
+    color:white;
+    font-size: 13px;
+    }
+    
+              
+.Banner {background-image: url(../img/bowlandpetdaitiesongreenbackground1.png);
+    width: 1000px;
+    height: 400px;
+}
+    .placer {background-color: white;
+        
+    }
+    .productos {box-sizing: 15px;}
+    .datos {background-color: #3C2313;
+        color:white;}
+ .derechos {background-color: #F0A83E;
+font-size: 10px;
+color:white;}
