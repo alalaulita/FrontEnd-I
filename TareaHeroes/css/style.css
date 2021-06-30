@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{box-sizing: border-box;}
+*{box-sizing: border-box; padding: 0px;
+    margin: 0px;
+}
 
 body {font-family: 'Roboto', sans-serif;
    
     }
-* {box-sizing: border-box;
-padding: 0px;
-    margin: 0px;}    
+    
     
 .descuento {background-color: #1CD1B0;
     padding: 10px;
@@ -23,33 +23,33 @@ header {
 h1 {width: 400px;
 }
 
-main {display: inline-block;
- border-radius: 50%;}
-
-#totalcard {display: inline-block;
-    height: 130px;
-    width: 3000px;
-    padding: 15px;
-    margin:50px 15px;
-    margin-bottom: 50px;
+main {display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+ border-radius: 50%;
+ flex-wrap: wrap;
+min-height: calc(100vh - 30px)}
 
-}
-.card {display: inline-block;
-    height: 100px;
-    width: 300px;
-    position:relative;}
+
+.card {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 290px;
+   }
 .corazon {position:relative;
-    top: 40px;}
+    top: 65px;
+width: 50px;}
 .batman {position:relative;
-top: -60px;
-left: 85px;
+    top: -80px;
+    left: 100px;
+    width: 120px;
 border-radius: 50%;
 z-index: 10;}
+
 .rectangulo {position: relative;
-    top: -125px;
-    right: 5px;
+    width: 300px;
+    top: -100px;
+    right: -50px;
 }
 h2 {position: relative;
 top: -400px;
@@ -59,10 +59,12 @@ left:100px;
 top: -350px;
 text-align: justify;}
 .corazon2 {position:relative;
-    top: 40px;}
+    top: 65px;
+width: 50px;}
 .quin {position:relative;
-top: -60px;
-left: 85px;
+    top: -80px;
+    left: 100px;
+    width: 120px;
 border-radius: 50%;
 z-index: 10;}
 .rectangulo {position: relative;
@@ -78,3 +80,17 @@ top: -350px;
 text-align: justify;}
 footer {background-color: #00669F;
 padding: 5px;}
+
+
+@media screen (max-width:790) {
+  section .descuento{ background-size: 790px;}
+    main {display:flex;
+        }
+}
+@media screen (max-width:480) {
+    section .descuento {background-size:cover;
+        margin:0px;
+    width:480px;}
+    main { display: flex;
+       
+}
