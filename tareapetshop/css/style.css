@@ -1,32 +1,290 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
-*{box-sizing:content-box;
-    font-family:  'Roboto', sans-serif;}
- .primero { background-color: black;
+/* Seccion Barra*/
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
     color: white;
-     font-size: 10px;
+}
+
+/* barra p{
+    position: relative;
+    left: -500px;
+}*/
+
+.barra ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    }
+
+/*Header*/
+
+header {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 11.72px;
+    margin-bottom: 0px;
+    height: 100px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    position: relative;
+    left: 35px;
+}
+
+nav, a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    gap: 50px;
+    right: 50px;
+}
+
+/*Banner*/
+
+.Banner {
+    background-image: url(../img/bowlandpetdaitiesongreenbackground1.png);
+    background-size: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: flex-end;
+    bottom: 0px;
+}
+
+.placer {
+    background-color: white;
+    padding: 15px;
+    position: relative;
+    left: -50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.Banner>p {
+    color: #3C2313;
+    position: relative;
+    left: -95px;
+    font-size: 20px;
+}
+
+.comedero {
+    color: white;
+    font-size: 30px;
+    background-color: #f0a83e;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    left: -150px;
+}
+
+/* Productos*/
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Imagenes*/
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.texto {
+    color: #3C2313;
+    position: relative;
+    top: -100px;
+    left: -50px;
+}
+
+.precio {
+    color: #F0A83E;
+    position: relative;
+    top: -100px;
+    left: -50px;
+}
+
+/*Seccion contantenos*/
+
+.contactenos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+
+    
+.ingresodatos form {display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 250px;}
+
+.ingresodatos input{
+    background-color: #3C2313;
+    padding: 10px;
+    width: 300px;
+    background-position: left center;
+    text-align: left;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+.botones {display: flex;
+    width:200px;
+    justify-content: space-around;
+    font-size: 15px;
+  margin:15px;
 
 }
-.nav, a {background-color: #F0A83E;
-    color:white;
-    font-size: 13px;
-    }
-    
-              
-.Banner {background-image: url(../img/bowlandpetdaitiesongreenbackground1.png);
-    width: 1000px;
-    height: 400px;
-    margin:0px
+.submit {background-color: #F0A83E;
+border-radius: 15px;
+padding: 15px;}
+.reset {background-color: gray;
+    border-radius: 15px;
+    padding: 15px;}
+
+/*Footer*/
+
+footer {
+    margin-top: auto;
 }
-    .placer {background-color: white;
-        
+
+.subscripcion {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscripcion h3 {
+    color: white;
+    position: relative;
     }
-    .productos {box-sizing: 15px;}
-    .datos {background-color: #3C2313;
-        color:white;}
- .derechos {background-color: #F0A83E;
-font-size: 10px;
-color:white;}
+
+.email2 {
+    background-color: white;
+    align-content: center;
+    width: 300px;
+    padding: 15px;
+    font-size: 10px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.submit2 {
+    background-color: #3C2313;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.datos {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.derechos {
+    background-color: #F0A83E;
+    font-size: 10px;
+    color: white;
+}
+
+.derechos p {
+    margin: 0;
+}
+
+
+
+@media screen and (max-width:768px /*, min-width:481px*/) {
+        .barra {display:none;}
+  header {flex-direction:column;
+    justify-content: center;
+align-items:space-around;}
+.Banner {/*background-size: 100%;*/
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;}
+.placer ,.comedero, .Banner>p {font-size: 10px;
+position: relative;
+left: -175px;}
+
+.productos {flex-direction:column;
+    justify-content: center;}
+    .imagenes {flex-direction:column;
+    justify-content: center;
+}
+
+
+    /*header ::before{content:'\f0c9';
+    font-family:"Font Aweson 5 Free";
+    font-size:2rem;
+    
+}*/
+    
+}
+@media screen and (max-width:480px){
+    .barra {display:none;}
+  header {flex-direction: column;
+ align-items: center;}
+  .Banner { height: 100px;
+     flex-direction: column;
+     align-items: flex-end;
+ gap: 10px;}
+ .placer ,.comedero, .Banner>p {font-size: 10px;
+ position: relative;
+ left: -5px;
+ padding: 10px;}
+  .imagenes {flex-direction:column;
+     align-items: flex-end;}
+     
+ }
