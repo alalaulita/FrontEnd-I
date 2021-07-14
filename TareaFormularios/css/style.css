@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    font-size: 30px;
+}
+
+header img {}
+
+header h3 {}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+    margin-bottom: 350px;
+}
+
+main h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    right: -200px;
+}
+
+main form input {
+    padding: 30px;
+    margin: 15px;
+    width: 500px;
+}
+
+::placeholder {color:black;}
+
+
+
+main form .boton button {
+    background: #1CD1B0;
+    padding: 30px;
+    margin:15px;
+    width: 95%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main p {
+    padding: 15px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+
+main p a {}
+
+footer {
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
